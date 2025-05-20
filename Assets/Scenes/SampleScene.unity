@@ -1041,8 +1041,6 @@ MonoBehaviour:
   forwardMultiplier: 20
   torqueMultiplier: 15
   playerHand: {fileID: 2715566404783434375}
-  axeCaller: {fileID: 8296668442911279432}
-  targetPosition: {fileID: 8153021305465995552}
 --- !u!4 &1031632034728335920
 Transform:
   m_ObjectHideFlags: 0
@@ -3268,7 +3266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interpolator: 0
   targetPosition: {x: 0, y: 0, z: 0}
-  speed: 0.5
+  speed: 0.75
   kratosHand: {fileID: 8153021305465995552}
 --- !u!4 &8352548718589427483
 Transform:
