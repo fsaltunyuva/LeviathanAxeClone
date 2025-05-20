@@ -22,8 +22,7 @@ public class AxeThrower : MonoBehaviour
         axeParent.transform.parent = null;
         axeRigidbody.isKinematic = false;
         axeRigidbody.AddForce(axeParent.transform.forward * forwardMultiplier, ForceMode.Impulse);
-        //axeRigidbody.AddForce(playerHand.transform.forward * forwardMultiplier, ForceMode.Impulse);
+        // axeRigidbody.AddForce(playerHand.transform.forward * forwardMultiplier, ForceMode.Impulse);
         axeRigidbody.AddTorque(axe.transform.forward * -torqueMultiplier, ForceMode.Impulse);
     }
-
 }
